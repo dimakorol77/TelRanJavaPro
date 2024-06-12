@@ -1,9 +1,6 @@
 package org.example.lessons.lesson5;
 
-import org.example.lessons.Test;
-
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Test2 {
     static int size=5;
