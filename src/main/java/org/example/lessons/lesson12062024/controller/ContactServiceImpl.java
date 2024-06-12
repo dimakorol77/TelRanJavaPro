@@ -17,7 +17,7 @@ public class ContactServiceImpl implements ContactService {
     @Override
     public void updateById(int id, Contact newContact) {
         Contact contact = getById(id);
-        if (newContact.getName() != null && !newContact.getEmail().isEmpty()) {
+        if (newContact.getName() != null && !newContact.getName().isEmpty()) {
             contact.setName(newContact.getName());
         }
 
